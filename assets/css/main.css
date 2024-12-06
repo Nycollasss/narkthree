@@ -1288,3 +1288,73 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+/* Product Details Section --------------------------------------------------------------*/
+
+/* Estilo para as imagens do slider de detalhes do produto */
+.product-details .product-details-slider img {
+  width: 100%; /* As imagens ocupam 100% da largura do contêiner */
+}
+
+/* Estilo para a paginação do swiper (controle de navegação do slider) */
+.product-details .product-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+/* Estilo para os botões de navegação da paginação (bolinhas) */
+.product-details .product-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px; /* Tamanho do botão de navegação */
+  height: 12px;
+  background-color: color-mix(in srgb, var(--default-color), transparent 85%); /* Cor de fundo dos botões */
+  opacity: 1; /* Opacidade total */
+}
+
+/* Estilo para o botão de navegação ativo (quando está selecionado) */
+.product-details .product-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: var(--accent-color); /* Cor do botão ativo */
+}
+
+/* Estilo para a área de informações do produto */
+.product-details .product-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1); /* Sombras para destacar a área */
+}
+
+/* Estilo para o título da seção de informações do produto */
+.product-details .product-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 85%); /* Linha separando o título */
+}
+
+/* Estilo para a lista de características ou especificações do produto */
+.product-details .product-info ul {
+  list-style: none; /* Remove os marcadores de lista */
+  padding: 0;
+  font-size: 15px;
+}
+
+/* Estilo para espaçamento entre os itens da lista */
+.product-details .product-info ul li+li {
+  margin-top: 10px;
+}
+
+/* Estilo para a descrição detalhada do produto */
+.product-details .product-description {
+  padding-top: 30px;
+}
+
+/* Estilo para o título da descrição do produto */
+.product-details .product-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Estilo para o parágrafo da descrição do produto */
+.product-details .product-description p {
+  padding: 0;
+  color: color-mix(in srgb, var(--default-color), transparent 30%); /* Cor da descrição */
+}
